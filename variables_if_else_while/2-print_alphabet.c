@@ -1,19 +1,19 @@
 #include <stdio.h>
 /**
- * May Betty be please with this
+ * main - Entry point
  *
- *
+ * Return: Always 0 (Success/correct)
  */
-int main()
+int main(void)
 {
-    char alphabet;
+	char alphabet;
 
-    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-    {
-        putchar(alphabet);
-    }
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }

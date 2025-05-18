@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * Same as last time but a bit diff
+ * main - Entry point
  *
- *
+ * Return: Always 0 (Done cirrectly)
  */
-int main()
+int main(void)
 {
-    int i;
+	int i;
 
-    for (i = 48; i <= 57; i++)
-    {
-        putchar(i);
-    }
-    putchar('\n');
-    return (0);
+	for (i = 48; i <= 57; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }

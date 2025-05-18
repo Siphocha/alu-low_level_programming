@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * Betty sucks
+ * main - Entry point
  *
- *
+ * Return: Always 0 (Success/correct)
  */
-int main()
+int main(void)
 {
-    char alphabet;
+	char alphabet;
 
-    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-    {
-        if (alphabet == 'q')
-            continue;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		if (alphabet == 'q')
+			continue;
 
-        else if (alphabet == 'e')
-            continue;
+		else if (alphabet == 'e')
+			continue;
 
-        putchar(alphabet);
-    }
-    putchar('\n');
-    return (0);
+		putchar(alphabet);
+	}
+	putchar('\n');
+	return (0);
 }
