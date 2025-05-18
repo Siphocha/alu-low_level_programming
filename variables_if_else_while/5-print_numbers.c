@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * Printing numbers from 10
  *
- * Return: Always 0 (Success/Correct)
+ *
  */
-int main(void)
+int main()
 {
-	int i;
+    int i;
 
-	for (i = 0; i < 10; i++)
-	{
-		printf("%i", i);
-	}
-	printf("\n");
-	return (0);
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d", i);
+    }
+    printf("\n");
+    return (0);
 }

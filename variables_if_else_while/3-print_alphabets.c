@@ -1,24 +1,23 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * May Betty be pleased with this
  *
- * Return: Always 0 (success/correct)
+ *
  */
-
-int main(void)
+int main()
 {
-	char lowerCase;
-	char upperCase;
+    char alphabet;
+    char highCase;
 
-	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
-	{
-		putchar(lowerCase);
-	}
+    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+    {
+        putchar(alphabet);
+    }
+    for (highCase = 'A'; highCase <= 'Z'; highCase++)
+    {
+        putchar(highCase);
+    }
 
-	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
-	{
-		putchar(upperCase);
-	}
-	putchar('\n');
-	return (0);
+    putchar('\n');
+    return (0);
 }
