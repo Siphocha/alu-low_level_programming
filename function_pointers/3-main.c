@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /**
- *
+ * main - main program
+ * @argc: arguement counter
+ * @argv: array of arguement
+ * Return: int
  */
 int main(int argc, char *argv[])
 {

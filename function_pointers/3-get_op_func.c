@@ -4,6 +4,9 @@
 /**
  * get_op_func -function returns a pointer to the function that
  * corresponds to the operator given as a parameter
+ * @s: operator passed as argument to the program : +, *, -, /, %
+ * Return: pointer to the correct operation function or NULL if not match
+ * with 's'.
  */
 int (*get_op_func(char *s))(int, int)
 {
