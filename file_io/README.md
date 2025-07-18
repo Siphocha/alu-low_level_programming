@@ -1,0 +1,1 @@
+Going a bit more into C and linux integrations in terms of system fundamentals and processing.
